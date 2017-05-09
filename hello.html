@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang = "en-US">
+
+<head>
+<link rel="icon" type="image/png" href="images/logoo.png" />
+<title>The Alexander Wayne | Bio</title>
+<meta charset="UTF-8">
+<meta name ="Araka Ebuka">
+<meta author = "Araka Ebuka IV">
+<meta designer = "Mr. Alexander Wayne">
+<link rel="stylesheet" href="fa/css/font-awesome.min.css">
+<style>				
+	   ::-webkit-scrollbar{
+           opacity: 0.2;
+        width: 6px;
+           width: 8px;
+    right: 6px;
+           background-color: skyblue;
+    }
+
+    ::-webkit-scrollbar-track {
+            opacity: 1;
+       /* -webkit-box-shadow: inset 0 0 6px #000;*/
+        border-radius: 10px;
+        background-color: inherit;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        /*border-radius: 10px;*/
+        /*-webkit-box-shadow: inset 0 0 6px #000; */
+		/*background-color: #f7d0cb;*/
+            background-color: #82ccf8;
+    border-radius: 8px;
+    }
+
+
+#araka{
+  display: inline-block;
+  position:absolute;
+  -ms-transform:translate(-50%,-50%);
+  -webkit-transform:translate(-50%,-50%);
+  transform:translate(-50%,-50%);
+}
+
+/* Icons */
+
+#araka a {    
+  margin: 0 auto;
+  color:#fff;
+  border-bottom: none;
+  text-align:center;
+  font-family:fontawesome;
+  position: relative;
+  display: inline-block;
+  width:40px;
+  height:28px;
+  margin-top:35px;
+  margin-bottom: -40px;
+  -o-transition:all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  transition: all .5s;
+   -webkit-font-smoothing: antialiased;
+text-decoration: none;
+}
+
+#araka a:hover {
+   text-decoration:none;
+}
+
+#araka #facebook:hover{    
+   color:#3b5998 ;
+}
+
+#araka #twitter:hover{    
+   color:#00aced ;
+}
+
+#araka #instagram:hover{    
+   color: #bc2a8d ;
+}
+
+#araka #snapchat:hover{    
+   color: #fffc00 ;
+}
+
+#araka #whatsapp:hover{    
+   color: #34af23 ;
+}
+
+/* pop-up text */
+
+#araka a span {
+width: 150px;
+  color:#666;
+  position:absolute;
+  font-family:sans-serif;
+  bottom:0;
+  left:-25px;
+  right:-25px;
+  padding:5px 7px;
+  z-index:-1;
+  font-size:14px;
+  border-radius:5px;
+  background:#fff;
+  visibility:hidden;
+  opacity:0;
+  -o-transition:all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -webkit-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  -moz-transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+text-align: center;
+}
+
+/* pop-up text arrow */
+
+#araka a span:before {
+  content:'';
+  width: 0px; 
+  height: 0px; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 5px solid #fff;
+  position:absolute;
+  bottom:-5px;
+  left:40px;
+}
+
+/* text pops up when icon is in hover state */
+
+#araka a:hover span {
+  bottom:30px;
+  visibility:visible;
+  opacity:1;
+}
+
+/* font awesome icons css codes */
+
+#araka a:nth-of-type(1):before {
+content:'\f09a';
+}
+#araka a:nth-of-type(2):before {
+content:'\f099';
+}
+#araka a:nth-of-type(3):before {
+content:'\f16d';
+}
+#araka a:nth-of-type(4):before {
+content:'\f232';
+}
+#araka a:nth-of-type(5):before {
+content:'\f2ac';
+}
+#araka a:nth-of-type(6):before {
+content:'\f09b';
+}
+
+
+
+html,body,h1,h2,h3,h4,h5,h6 {
+
+font-family: "Roboto", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,.grey,.details,.Skills{
+font-weight: 400;
+color: #757575;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+body{
+background-color: #f1f1f1;
+padding: 8dp;
+}
+
+#avatar{
+border: 2px solid #009688;
+border-radius: 3px;
+}
+
+#avatar:hover{
+opacity: 0.7;
+transition: all ease-in 0.6s;
+border: 2px solid #f1f1f1;
+}
+
+.foot{
+display: inline-block;
+text-align: center;
+background-color: #009688;
+width: 100%;
+color: #ffffff;
+font-size: 15px;
+line-height: 1.5;
+}
+
+.foot #tag{
+letter-spacing: 0.1em;
+}
+
+.grey-box{
+background-color:#f1f1f1;
+border-radius: 15px;
+text:align: center;
+
+}
+
+.teal-box{
+text-align: center;
+border-radius: inherit;
+background-color:#009688;
+color:white;
+height:0.3em;
+}
+
+.left{
+margin-bottom: 10px;
+margin-right: 10px;
+float: left;
+display: block;
+padding: 24px;
+width: 31%;
+background-color: white;
+-webkit-box-orient: vertical;
+margin-top: 18px;
+}
+
+.right, .education{
+margin-bottom: 10px;
+display: -webkit-box;
+-webkit-box-flex: 1;
+-webkit-box-orient: vertical;
+background-color: white;
+padding: 24px;
+border: 1px blur #cccccc;
+}
+
+
+
+.left, .right, .education{
+border: 3px solid #aaaaaa; 
+border-radius: 3px;
+}
+
+.time{
+color: #009688;
+font-size: 16px;
+}
+
+
+#span{
+display: -webkit-box;
+-webkit-box-orient: vertical;
+}
+
+#page{
+background-color:#f1f1f1;
+}
+
+.index{
+color: #a0a0a0;
+line-height: 1.5;
+}
+
+.current{
+background-color: #009688;
+padding: 5px;
+border-radius: 3px;
+color: white;
+}
+
+.link{
+text-decoration: none;
+color: #606060;
+border-bottom: 2px dotted #a0a0a0;
+line-height: 20px;
+}
+
+a:hover{
+color:#009688;
+}
+
+
+a:active, a:visited{
+color:#009688;
+border-bottom: 2px dotted #009688;
+}
+
+
+p{
+color: #606060;
+}
+
+h5{
+text-transform: uppercase;
+}
+
+ul{
+list-style-type: katakana;
+}
+
+ul li a img{
+display: inline-block;
+text-align: center;
+}
+
+
+#things{
+color: #f1f1f1;
+}
+
+.follow_icon {
+	text-align: center;
+	list-style: none;
+	display:inline-block;
+	margin-right: 3px;
+	margin-left: 3px;
+	opacity: 1;
+}
+
+.follow_icon:hover{
+	opacity:0.6;
+}
+
+
+#headlines{
+text-align: center;
+letter-spacing: 5px;
+word-spacing: 5px;
+font-family: "Roboto", sans-serif;
+color: #aaaaaa;
+}
+
+#top{
+    transition: all ease-in 0.5s;
+}
+
+@media (max-width: 680px){
+
+.left{
+
+width: 85%;
+
+}
+
+.right, .education{
+margin-bottom: 10px;
+width: 85%;
+}
+
+body{
+background-image: url(background.jpg);
+}
+
+.teal-box{
+height: 0.3em;
+}
+
+
+}
+
+#f1f1f1
+#757575
+#009688
+</style>
+
+
+
+</head>
+<body class = "tag">
+    <img src = "images/mark.png">
+<div class = "left">
+          <img id = "avatar" src="images/avatar.jpg" style="width:100%" alt="Avatar" >
+          
+            <h3><i class = "fa fa-star-o fa-fw"></i> "Mr. Alexander Wayne"</h3>
+
+     <div class = "details">
+	  <p><i class = "fa fa-user fa-fw"></i> Araka Ebuka IV</p>
+          <p><i class = "fa fa-briefcase fa-fw"></i> Tech Entrepreneur</p>
+          <p><i class = "fa fa-map-marker fa-fw"></i> Lagos, Nigeria</p>
+          <p><i class = "fa fa-envelope fa-fw"></i> araka.ebuka@gmail.com</p>
+          <p><i class = "fa fa-phone fa-fw"></i> (+234) 703 728 0220</p>
+          </div>
+          <hr>
+
+          <div class="Skills">
+		<h3><p><i class = "fa fa-lightbulb-o"></i> Skills</p></h3>
+
+	
+          <p class = "grey"><b>Programming</b></p>
+	<p></p><p class = "index">C#</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:85%"></div>
+          </div>
+          <p class = "index">C++</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:55%">
+              <div class="w3-center w3-text-white"></div>
+            </div>
+          </div>
+          <p class = "index">JAVA</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:50%"></div>
+          </div>
+	<br />
+	<p class = "grey"><b>Web Development</b></p>
+          <p class = "index">WordPress</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:80%"></div>
+          </div>
+          
+    <p class = "index">HTML5 & CSS3</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:80%"></div>
+          </div>
+          
+    <p class = "index">JavaScript</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:60%"></div>
+          </div>
+          <br>
+
+          <p class="Skills"><b> Languages </b> </p>
+          <p class = "index">English</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:100%"></div>
+          </div>
+          <p class = "index">Spanish</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:10%"></div>
+          </div>
+          <p class = "index">Igbo</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:10%"></div>
+          </div>
+          <br>
+        </div>
+      
+
+	<p class="Skills"><b> Others </b> </p>
+          <p class = "index">Creative Writing/Articles</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:70%"></div>
+          </div>
+         
+          <p class = "index">Mobile App Development/Android Studio</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:45%"></div>
+          </div>
+
+ <p class = "index">Keyboard/Piano</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:40%"></div>
+          </div>
+          
+        
+<p class = "index">Splicing Fiber Optic Cable</p>
+          <div class="grey-box">
+            <div class="teal-box" style="width:40%"></div>
+          </div>
+          <br>
+        </div>
+      </div><br>
+
+<span id = "span"></span>
+
+
+    <div class = "right">
+
+      <div class="febefve">
+        <h2><i class = "fa fa-wrench"></i> Work Experience</h2>
+        <div class="container">
+          <h5><b>Telecommunications Engineering Intern / <a class = "link" href = "http://www.jirehtechng.com/#">Jireh Technologies</a></b></h5>
+          <h6 class="time">March 2017 - <span class="current">Current</span></h6>
+          <p>My job description basically revolved around splicing and maintenance of fiber optic cords.</p>
+          <hr>
+        </div>
+
+        <div class="container">
+          <h5><b>Software & Web Developer Intern / <a class = "link" href = "http://www.m-rinternational.com/home/Home">M-RSoft International</a></b></h5>
+          <h6 class="time">Jun 2016 - Nov 2016</h6>
+          <p>My job description involved developing an administrator and guest login portal with C#. I worked majorly around C#, although I did a bit of SQL and web designing.</p>
+          <hr>
+        </div>
+</div>
+</div>
+
+      <div class="education">
+        <h2 class="tag"><i class = "fa fa-certificate"></i> Education</h2>
+        <div class="school">
+          <h5><b ><a class = "link" href = "http://www.bellsuniversity.edu.ng/" target = "blank" >BELLS UNIVERSITY OF TECHNOLOGY, OTA</a></b></h5>
+          <h6 class="time">2013 - <span class = "current">Current</span></h6>
+          <hr>
+        </div>
+
+        <div class="school">
+          <h5><b><a class = "link" href = "http://bloombreed.com/" target = "blank">BLOOMBREED HIGH SCHOOL, PORT HARCOURT</a></b></h5>
+          <h6 class="time">2011 - 2013</h6>
+
+          <hr>
+        </div>
+
+        <div class="school">
+          <h5><b><a class = "link" href = "https://www.smsabuja.com/" target = "blank">STELLA MARRIS COLLEGE, ABUJA</a></b></h5>
+          <h6 class="time">2011 - 2011</h6>
+
+          <hr>
+        </div>
+
+        <div class="school">
+          <h5><b><a class = "link" href = "http://www.brookstoneng.org/" target = "blank">BROOKSTONE SECONDARY SCHOOL, PORT HARCOURT</a></b></h5>
+          <h6 class="time">2008 - 2010</h6>
+
+          <hr>
+        </div>
+
+        <div class="school">
+          <h5><b><a class = "link" href = "http://www.mmehs.com/" target = "blank">MEA MATER ELIZABETH HIGH SCHOOL, ENUGU</a></b></h5>
+          <h6 class="time">2007 - 2008</h6>
+
+        </div>
+
+    <!-- End Right Column -->
+    </div>
+
+    	<div class = "right" style = "clear: both;">
+
+		<h2><i class = "fa fa-trophy"></i> Recent Achievements</h2>
+	  <ul>
+		<li><p>Two time Nigerian representative at the <a class = "link" href = "http://www.nhsmun.nyc/" target = "blank">National High School Model United Nations Conference, New York </a>(<span class = "time">2011, 2012</span>)
+</p></li>
+
+		<li><p>Two time participant at the <a class = "link" href = "https://thercs.org/youth-and-education/the-queens-commonwealth-essay-competition/" target = "blank">Royal Commonwealth Essay Competition</a> (<span class = "time">2012, 2013</span>) </p></li>
+
+	<li><p>Honorary mention at the <a class = "link" href = "https://www.livingrainforest.org/" target = "blank" >Living Rainforest Essay Competition </a>(<span class = "time">2013</span>) </p></li>
+</ul>
+	</div>
+
+    
+</div>
+        
+
+
+
+<footer class="foot">
+  <p></p>Find me on social media.<p></p>
+
+
+							<section style = "margin: 0 auto;"><div id = "araka">
+	  <a href="https://www.facebook.com/ebuka.araka" id = "facebook" target = "blank"><span>Araka Ebuka</span></a>
+	  <a href="https://twitter.com/Araka003" id = "twitter" target = "blank"><span>@Araka003</span></a>
+	  <a href="https://www.instagram.com/thealexvnder/" id = "instagram" target = "blank"><span>@thealexvnder</span></a>
+	  <a href="#" id = "whatsapp"><span>(+234) 703 728 0220</span></a>
+	  <a href="#" id = "snapchat" target = "blank"><span>Snapchat</span></a>
+
+	</div></section>
+							<br/><br/>
+							<ul class="copyright">
+								
+			
+  <p></p>
+<span id = "tag">Designer: Mr. Alexander Wayne</span>
+</footer>
+
+</body>
+</html>
