@@ -2,9 +2,13 @@ Huge thanks to Mr. Alexander Wayne, the designer of this website. (thekvng.com)
 
 
 Credits:
+	Typed.js:
+		Made by: Matt Boldt (www.mattboldt.com)
+		Explained by: Adrienne (www.freelancewebprogrammer.com)
+
 	Template:
-		HTMLUP (html5up.com)
-	Demo Images:
+		HTMLUP (html5up.net)
+	Free Images:
 		Unsplash (unsplash.com)
 
 	Icons:
