@@ -22,35 +22,7 @@
 			<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 			<link rel="stylesheet" href="fa/css/font-awesome.min.css">
             <script src="assets/js/typed.js" type="text/javascript"></script>
-            <!--Script for typed.js. Created by mattboldt.com. Explained to me by Adrienne of www.freelancewebprogrammer.com. Please check them out-->
-<script>
-             document.addEventListener('DOMContentLoaded', function(){
-
-        Typed.new("#typed", {
-            stringsElement: document.getElementById('typed-strings'),
-            typeSpeed: 80,
-            backDelay: 2000,
-            loop: false,
-            contentType: 'html', // or text
-            // defaults to null for infinite loop
-            loopCount: null,
-            callback: function(){ foo(); },
-            resetCallback: function() { newTyped(); }
-        });
-
-        var resetElement = document.querySelector('.reset');
-        if(resetElement) {
-            resetElement.addEventListener('click', function() {
-                document.getElementById('typed')._typed.reset();
-            });
-        }
-
-    });
-
-    function newTyped(){ /* A new typed object */ }
-
-    function foo(){ console.log("Callback"); }
-            </script>
+           
 			<style>
                 .show{
                     font-size: 2em;
@@ -150,11 +122,11 @@
             color: #f7c0db;
             opacity: 1;
             font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
+            -webkit-animation: blink 0.9s infinite;
+            -moz-animation: blink 0.9s infinite;
+            -ms-animation: blink 0.9s infinite;
+            -o-animation: blink 0.9s infinite;
+            animation: blink 0.9s infinite;
         }
         @-keyframes blink{
             0% { opacity:1; }
@@ -262,13 +234,8 @@
 									<i class = "classy hide"><img src = "images/mark.png"></i>
 									<hr>
 									<h2 class="alt" style="color: #f7d0cb;">Hello World! I am Mr. Alexander Wayne&trade;.</h2>
-                                    <span style = "color: #f7c0db;">I am a</span>
-                                    <div id = "typed-strings">
-									<h3>web developer. </h3>
-                                        <h3>web designer. </h3>
-                                        <h3>programmer. </h3>
-                                        <b>U N I C O R N. </b>
-                                    </div><span id="typed" style="white-space:pre; color: #f7c0db; font-style: italic;"></span>
+
+<span class="element" style = "color: #f7d0cb;"></span>
 								</header>
 	
 								<footer><br>
@@ -460,23 +427,7 @@
 								See what you like? Give us a call or send us an email and we will get back to you as soon as possible!<br><br>
 	
 								    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: 6.5244, lng: 3.3792};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 6,
-          center: uluru,
-	scrollwheel: false
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgFk7FQrKL_-amXU-EjLSrUXR_SijfX7k&callback=initMap">
-    </script><br><a class="typeform-share button" href="https://thealexvnder.typeform.com/to/ccXDkM" data-mode="1" target="_blank">Say Hello!!</a>
+<br><a class="typeform-share button" href="https://thealexvnder.typeform.com/to/ccXDkM" data-mode="1" target="_blank">Say Hello!!</a>
    
 
 
@@ -557,7 +508,42 @@
 
 </script>
 
+<!--Google Maps-->
+    <script>
+      function initMap() {
+        var uluru = {lat: 6.5244, lng: 3.3792};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: uluru,
+	scrollwheel: false
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgFk7FQrKL_-amXU-EjLSrUXR_SijfX7k&callback=initMap">
+    </script>
 
+
+
+<!--New script for the typed.js
+
+    Created by mattboldt.com 
+    Explained to me by Adrienne of www.freelancewebprogrammer.com
+    Please check them out
+-->
+<script>
+document.addEventListener("DOMContentLoaded", function(){
+Typed.new(".element", {
+strings: ["^100Who am I? ^1000 ", "I am a web developer. ^100", "I am a web designer. ^100", "I am a programmer. ^100", "I am a <i>U N I C O R N</i>. "],
+typeSpeed: 80,
+    backSpeed: 10,
+});
+});
+</script>
 		</body>
 	</html>
 	<!--
