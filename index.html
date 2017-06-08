@@ -21,7 +21,31 @@
 			<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 			<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 			
-	
+	<style>
+
+      .accordion:after{
+        content: '\2795';
+        font-size: 9px;
+        color: #777;
+        transition: 0.2s;
+        
+        }
+    
+    .accordion.active:after{
+        content: '\2796';
+        transition: 0.2s;        
+    }
+    
+    .panel{
+        padding: 0 18px;
+        background-color:seashell;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease-out;
+        text-align: left;
+        font-size: 14px;
+    }
+</style>
 		</head>
 		<body>
 	<!-- Header -->
@@ -93,18 +117,18 @@
 									<br class = "show">
                                     <h1 class = "show"><img src = "images/favlogo.png"></h1>
 									<i class = "classy hide"><img src = "images/mark.png"></i>
-									<hr class = "hide">
+									<hr class = "hide" style="border-top: solid 1px  #f7d0cb;">
 									<h2 class="alt" style="color: #f7d0cb;">Hello World! I am Mr. Alexander Wayne&trade;.</h2>
 
 <span class="element" style = "color: #f7d0cb;"></span>
 								</header>
 	
-								<footer><br>
+								<footer>
 									<!--<a href="#portfolio" class="button scrolly">Explore</a>-->
                                     <ul class="actions">
-						<li><a href="#portfolio" class="button special scrolly" style="width">Explore</a></li>
-						<li><a href="https://thealexvnder.typeform.com/to/zmeNgc" data-mode="1" target="_blank" class = "typeform-share button">Contact</a></li>
-					</ul>
+						<li><a href="#portfolio" class="button scrolly" style="width">&emsp;Explore&emsp;</a></li>
+						<li><a href="#contact" class = "scrolly button">Get A Quote </a></li>
+					</ul><br>
 								</footer>
 	
 							</div><br>
@@ -125,29 +149,47 @@
 									<div class="4u 12u$(mobile)">
 										<article class="item">
 											<i href="#" class="image fit"><img class = "blur" src="images/img6.jpg" alt="" /></i>
-											<header>
-												<h3>Website Designing</h3>
+											<header class = "accordion">
+												<h3 class="text">Website Designing</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>I work with a pen and notepad, sketching the design layout and the UX/UI features to suit your needs, before firing up <i>Komodo Edit</i> to turn ideas to reality (or HTML) </p>
+                                            </div>
+			
 										</article>
 										<article class="item">
-											<i href="#" class="image fit"><img class = "blur" src="images/img3.jpg" alt="" /></i>
-											<header>
-												<h4>Blogging &amp; Content Creation</h4>
+											<i href="#" class="image fit"><img class = "blur" src="images/img35.jpg" alt="" /></i>
+											<header class = "accordion">
+												<h3 class="text">Blogging &amp; Content Creation</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>I am told to be good at writing and I apply that by branding businesses with content. Not sure what to write? <strong>I got you</strong></p>
+                                                <p>Want to start a blog? Well, I would prefer not to write it for you, but I would give you direction &amp; insight</p>
+                                            </div>
 										</article>
+                                                                         
 									</div>
-									<div class="4u 12u$(mobile)">
+		
+    							<div class="4u 12u$(mobile)">
 										<article class="item">
 											<i href="#" class="image fit"><img class = "blur" src="images/img11.jpg" alt="" /></i>
-											<header>
-												<h3>Programming</h3>
+											<header class = "accordion">
+												<h3  class="text">Programming</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>I write programs in C#, but I'm also proficient in Java, Ruby and Python</p>
+                                            </div>
+			
 										</article>
 										<article class="item">
 											<i href="#" class="image fit"><img class = "blur" src="images/img9.jpg" alt="" /></i>
-											<header>
-												<h3>HTML5 Games</h3>
+											<header class = "accordion">
+												<h3 class="text">HTML5 Games</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>I do a little game development with HTML5 and JavaScript, but nothing as good as Flappy Birds (yet...)</p>
+                                            </div>
+			
 										</article>
 										
 										
@@ -155,16 +197,26 @@
 									<div class="4u$ 12u$(mobile)">
 										<article class="item">
 											<i href="#" class="image fit"><img class = "blur" src="images/img4.jpg" alt="" /></i>
-											<header>
-												<h3>Web Development</h3>
+											<header class = "accordion">
+												<h3 class="text">Web Development</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>
+                                                I prefer developing websites from scratch or coding it myself, but if you prefer Wordpress, I am equally up to the task. I do more of frontend than backend</p>
+                                            </div>
+			
 										</article>
 										
 										<article class="item">
 											<i href="#" class="image fit" ><img src="images/img16.jpg" alt="" class = "blur"/></i>
-											<header>
-												<h3>Mobile App Development</h3>
+											<header class = "accordion">
+												<h3 class="text">Mobile App Development</h3>
 											</header>
+                                            <div class = "panel">
+                                                <p>For about a year, I have been studying mobile app development and I now know enough to put together a basic app.</p>
+                                                <p>This service is temporarily on hold, as I want to upgrade to a Macbook before launching apps.</p>
+                                            </div>
+			
 										</article>
 									</div>
 								</div><br>
@@ -173,7 +225,7 @@
             <div class="call-to-action">
                 <h6>See What You Like?</h6>
                 <hr><br>
-                <a class="typeform-share buttonn" href="https://thealexvnder.typeform.com/to/ccXDkM" data-mode="1" target="_blank" style="font-size: 1em;">START A PROJECT</a>
+                <a class="typeform-share buttonn" href="https://thealexvnder.typeform.com/to/ccXDkM" data-mode="1" target="_blank" style="font-size: 1em; border-radius: 2px; padding: 8px;">START A PROJECT</a>
 
             </div>
         </div>
@@ -190,11 +242,11 @@
 									<hr>
 								</header>
 	
-								<a class="image featured"><img src="images/avatar.jpg" alt="" style = "width: 500px; height: 500px;"/></a>
+								<a class="image featured"><img src="images/avatar.jpg" alt="My photo should be here" style = "width: 400px; height: 400px; display: block; margin: auto"/></a>
 	
 								<p>Well, ultimately, I am a <a href = "https://medium.com/@katherinemartinez/the-unicorn-hybrid-designer-developer-5e89607d5fe0" target="blank">unicorn</a>. I love coding and coffee</p>
 								<p>I design websites for SMEs, and on my downtime, I try to create mobile applications and brush up on my writing skills</p>
-<p>To know more about me, <a href = "hello.html" target = "_blank">check out my complete bio profile</a></p>
+<p>To know more about me, <a href = "hello.html" target = "_blank">check out my bio profile</a> or <a href = "blog.html">view my journal</a></p>
 	
 							</div>
 						</section>
@@ -285,14 +337,15 @@
 								</header>
 						
 							<div class = "initial-contact">
-								Want to meet for a chat (and coffee)? Give me a call or send me an email and I will get back to you as soon as possible!<br><br>
+								Want to meet for a chat (or lunch)? Fill the form below and I will get back to you as soon as possible!<br><br>
 	
-								    <div id="map"></div>
-<br><a class="typeform-share button" href="https://thealexvnder.typeform.com/to/ccXDkM" data-mode="1" target="_blank">Say Hello!!</a>
-   
+	
 
 
-
+<!-- Change the width and height values to suit you best -->
+<div class="typeform-widget" data-url="https://thealexvnder.typeform.com/to/zmeNgc" data-text="Say Hello" style="width:100%;height:500px;"></div>
+<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;"></div>
 				
 								<p>
 								<ul style = "list-style-type: none; text-align: left;">
@@ -405,6 +458,35 @@ typeSpeed: 60,
     backSpeed: 10,
 });
 });
+</script>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++){
+        acc[i].onclick = function(){
+            this.classList.toggle("active");
+            
+            var panel = this.nextElementSibling;
+            //if(panel.style.display === "block"){
+            if(panel.style.maxHeight){
+               // panel.style.display = "none";
+               panel.style.maxHeight = null;
+            }
+            else{
+                //panel.style.display = "block";
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        }
+    }
+    
+    window.onclick = function(event) {
+    if (event.target == acc) {
+        acc.style.display = "none";
+    }
+}
+    
 </script>
 		</body>
 	</html>

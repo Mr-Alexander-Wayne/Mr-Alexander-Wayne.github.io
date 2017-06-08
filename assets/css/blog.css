@@ -1,0 +1,127 @@
+::-webkit-scrollbar{
+           opacity: 0.2;
+        width: 6px;
+           width: 8px;
+    right: 6px;
+           background-color: inherit;
+           
+    }
+
+    ::-webkit-scrollbar-track {
+            opacity: 1;
+       /* -webkit-box-shadow: inset 0 0 6px #000;*/
+        border-radius: 10px;
+        background-color: inherit;
+        
+    }
+
+    ::-webkit-scrollbar-thumb {
+        /*border-radius: 10px;*/
+        /*-webkit-box-shadow: inset 0 0 6px #000; */
+		/*background-color: #f7d0cb;*/
+            background-color: #82ccf8;
+    border-radius: 8px;
+        
+    }
+    
+    body{
+        padding-left: 90px;
+        padding-right: 90px;
+        padding-top: 50px;
+    }
+    
+    h1{
+        
+        text-align: center;
+        color: deepskyblue;
+        letter-spacing: 6px;
+       }
+    
+    span{
+        font-family: cursive;
+        font-weight: lighter;
+    }
+    
+    article{
+        border: 1px solid dimgrey;
+        border-radius: 3px;
+        padding: 16px;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    
+    p{
+        color: darkgray;
+        font-size: 1em;
+        font-family: cursive;
+    }
+    
+    .entry{
+        list-style-type: none;
+    }
+    
+    hr{
+        max-width: 70px;
+        border-style: solid;
+        color: deepskyblue;
+    }
+    
+    #button{
+        text-decoration: none;
+        margin: auto 0;
+        padding: 20px;
+        border: 2px solid deepskyblue;
+        color: darkgray;
+        transition: 0.4s;
+    }
+    
+    #button:hover{
+        border-color: #f7c0db;
+        color: dimgrey;
+        transition: 0.4s;
+    }
+    
+    a{
+        text-decoration: none;
+        color: deepskyblue;
+        font-family: cursive;
+    }
+    
+    a:hover{
+        border-bottom: 1px dotted deepskyblue;
+        
+    }
+    
+    a:visited{
+        color: lightsteelblue;
+    }
+
+    .prev, .next{
+	color: deepskyblue;
+        font-family: cursive;
+
+     }
+
+.prev{
+
+}
+
+.next{
+text-align: right;
+}
+    
+    footer{
+        text-align: center;
+    }
+    
+    @media screen and (max-width: 700px){
+        body{
+            padding-left: 25px;
+            padding-right: 25px;
+        }   
+        
+          article{
+        max-width: 100%;
+    }
+        
+    }

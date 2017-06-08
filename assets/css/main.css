@@ -96,8 +96,8 @@ body{background-image:url(background.jpg);}
            width: 8px;
     right: 6px;
            background-color: skyblue;
-           
-    }
+}
+
 
     ::-webkit-scrollbar-track {
             opacity: 1;
