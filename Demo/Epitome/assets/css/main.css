@@ -7,6 +7,9 @@
 -->
 
 /* Reset */
+ 
+
+
 .hidder{
     display: inline;
 }
@@ -3408,3 +3411,6 @@
 			}
 
 		}
+.typed-cursor{
+            display: none;
+        }
