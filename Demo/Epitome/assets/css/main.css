@@ -76,11 +76,13 @@ h6{
         
     }
          #wrapper{
-    background-color: blanchedalmond;
+    /*background-color: blanchedalmond;*/
+             background-image: -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 }
 
 #footer{
-    background-color: lavenderblush;
+   /* background-color: lavenderblush;*/
+    background-image:  webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%)
 }
 
 
