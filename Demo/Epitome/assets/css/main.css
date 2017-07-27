@@ -55,15 +55,19 @@ h6{
         width: 6px;
            width: 8px;
     right: 6px;
-           background-color: inherit;
+           background-image: -webkit-linear-gradient(45deg, #ee7088 25%, #df66ff 65%);
+           
 }
 
 
     ::-webkit-scrollbar-track {
             opacity: 1;
-       /* -webkit-box-shadow: inset 0 0 6px #000;*/
-        border-radius: 10px;
+       /* -webkit-box-shadow: inset 0 0 6px #000;
         background-color: inherit;
+        */
+        border-radius: 10px;
+        background-image: -webkit-linear-gradient(90deg, #ee7088 25%, #df66ff 65%);
+        
         
     }
 
@@ -71,18 +75,17 @@ h6{
         /*border-radius: 10px;*/
         /*-webkit-box-shadow: inset 0 0 6px #000; */
 		/*background-color: #f7d0cb;*/
-            background-color: lightsteelblue;
+            background-color:powderblue;
     border-radius: 8px;
         
     }
          #wrapper{
-    /*background-color: blanchedalmond;*/
-             background-image: -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    /*background-color: blanchedalmond;#F2B69D
+             background-image: -webkit-linear-gradient(45deg, #5f4d93 10%, #e37682 90%);*/background-image:  -webkit-linear-gradient(90deg, #ee7088 25%, #df66ff 65%);
 }
 
 #footer{
    /* background-color: lavenderblush;*/
-    background-image:  webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%)
 }
 
 
@@ -117,7 +120,7 @@ h6{
 	}
 
 	.color{
-		color:palevioletred;
+		color:firebrick;
 	}
 
 /* Box Model */
