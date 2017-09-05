@@ -1,11 +1,7 @@
 @import url(font-awesome.min.css);
 
 
-/*
-	Atmosphere by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
+
 
 /* Reset */
 
@@ -1605,11 +1601,7 @@
 
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Basic */
 
@@ -1644,11 +1636,7 @@
 			transition: none !important;
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Type */
 
@@ -1713,10 +1701,11 @@
 		}
 
 	a {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
+            color: burlywood;
 			text-decoration: none;
 		}
 
@@ -1875,11 +1864,7 @@
 		border-bottom-color: rgba(99, 116, 133, 0.25);
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Box */
 
@@ -1906,11 +1891,7 @@
 		border-color: rgba(99, 116, 133, 0.25);
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Button */
 
@@ -2088,11 +2069,7 @@
 				background-color: #a54051;
 			}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Form */
 
@@ -2357,11 +2334,6 @@
 		color: #bbb !important;
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
 
 /* Icon */
 
@@ -2384,11 +2356,7 @@
 			display: none;
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Image */
 
@@ -2450,11 +2418,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* List */
 
@@ -2633,11 +2597,7 @@
 		border-top-color: rgba(99, 116, 133, 0.25);
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Section/Article */
 
@@ -2729,11 +2689,7 @@
 		background-color: rgba(99, 116, 133, 0.25);
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Table */
 
@@ -2822,11 +2778,7 @@
 		border-color: rgba(99, 116, 133, 0.25);
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Spotlights */
 
@@ -2902,11 +2854,7 @@
 		background-color: #ffffff;
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Features */
 
@@ -2976,11 +2924,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Posts */
 
@@ -3070,11 +3014,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Timeline */
 
@@ -3173,11 +3113,7 @@
 		color: #b7475a;
 	}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+
 
 /* Wrapper */
 
@@ -3739,11 +3675,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Header */
 
@@ -3912,11 +3844,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Menu */
 
@@ -4098,11 +4026,7 @@
 			opacity: 1;
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Banner */
 
@@ -4110,7 +4034,7 @@
 		background-image: -moz-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
+		background-image: url("../../images/banner.jpg");
 		background-attachment: fixed;
 		background-position: center center;
 		background-size: cover;
@@ -4220,11 +4144,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Main */
 
@@ -4240,11 +4160,7 @@
 
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Footer */
 
