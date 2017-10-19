@@ -14,8 +14,8 @@
 		<!-- [if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
        <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
-	   <link rel="stylesheet" href="assets/css/style.css">
-	   <script src="assets/js/modernizr.js"></script>
+        <link rel="stylesheet" href="assets/css/jquery.animatedheadline.css">
+
 	</head>
 	<body>
 
@@ -48,7 +48,7 @@
 						<p>Exclusive Corporate Guest House</p>
 					</div>
 					<ul class="actions vertical">
-						<li><a href="#" class="button special major">Book Now</a></li>
+						<li><a href="booking.html" class="button special major">Book Now</a></li>
 						<li><a href="services.html" class="button major scrolly">More Info</a></li>
 					</ul>
 				</div>
@@ -67,12 +67,12 @@
 					</div>
 					<div class="image-circles">
 						<div class="images">
-							<span class="image"><img src="images/pic01.jpg" alt="" /></span>
-							<span class="image"><img src="images/pic02.jpg" alt="" /></span>
+							<span class="image"><img src="images/modexphcpictures/Lounge%20(2)%20(800x600).jpg" alt="" /></span>
+							<span class="image"><img src="images/modexphcpictures/Spa%20(2)%20(800x600).jpg" alt="" /></span>
 						</div>
 						<div class="images">
-							<span class="image"><img src="images/pic03.jpg" alt="" /></span>
-							<span class="image"><img src="images/pic04.jpg" alt="" /></span>
+							<span class="image"><img src="images/modexphcpictures/Apartment%20(2)%20(800x600).jpg" alt="" /></span>
+							<span class="image"><img src="images/modexphcpictures/Classic%20room%20(3)%20(800x600).jpg" alt="" /></span>
 						</div>
 					</div>
 				</div>
@@ -90,15 +90,15 @@
 							<h3>Accommodation</h3>
 							<p><!--Feugiat lorem quis semper consequat, sem nibh mattis arcu, amet porttitor lorem justo in cumsan quam ultricies magna tempus.--></p>
 						</section>
-                        <section>
-                            <h1 class="cd-headline rotate-1">
-			<span>My favourite food is</span>
-			<span class="cd-words-wrapper">
-				<b class="is-visible">pizza</b>
-				<b>sushi</b>
-				<b>steak</b>
-			</span>
-		</h1>
+                        <section class="container">                 
+                          <h1 class="ah-headline">
+                            <span>My favorite programming language is</span>
+                            <span class="ah-words-wrapper">
+                              <b class="is-visible">JavaScript</b>
+                              <b>Python</b>
+                              <b>Swift</b>
+                            </span>
+                          </h1>          
                         </section>
 						<section>
 							<span class="icon major fa-plane"></span>
@@ -135,7 +135,7 @@
 			</section>
 
 		<!-- Three -->
-			<!--<section id="three" class="wrapper style1">
+		<!--	<section id="three" class="wrapper style1">
 				<div class="inner">
 					<div class="spotlights">
 						<section>
@@ -210,7 +210,34 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-            <script src="assets/js/headlines.js"></script>
+            <script src="assets/js/jquery.animatedheadline.js"></script>
+        
+        <script>
+            $('.container').animatedHeadline({
+
+              animationType: "push",
+
+              animationDelay: 2500,
+
+              barAnimationDelay: 3800,
+
+              barWaiting: 800,
+
+              lettersDelay: 50,
+
+              typeLettersDelay: 150,
+
+              selectionDuration: 500,
+
+              typeAnimationDelay: 1300,
+
+              revealDuration: 600,
+              revealAnimationDelay: 1500
+
+            });
+
+        </script>
+
 
 	</body>
 </html>

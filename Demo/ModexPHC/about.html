@@ -8,53 +8,23 @@
 		<title>About &#8226; Modex PHC </title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.css">
+        <style>
+            .re{
+                width: 30%;
+                height: auto;
+                border-radius: 10px;
+            }
         
-        
-        	<style>
-button.accordion {
-    background-color: white;
-    color: #444;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-    margin-top: 16px;
-}
+        </style>
 
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
-
-button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-button.accordion.active:after {
-    content: "\2212";
-}
-
-div.panel {
-    padding: 0 18px;
-    background-color: antiquewhite;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-</style>
 	</head>
 	<body>
 
@@ -87,12 +57,21 @@ div.panel {
 				</header>
 				<div class="inner">
                                   <h2>Meet Our Founder</h2> 
-                    <img src = "images/pic03.jpg"/>
+                    <img class = "re" src = "images/modexphcpictures/Founder.jpg"/>
                     
                     
                     
                                     <h2>Meet Our Executives</h2>
-                    <img src = "images/pic05.jpg"/>
+                    
+                    <div class="owl-carousel owl-theme ">
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                      <div> <img class = "re" src= "images/modexphcpictures/Admin.jpg"/> </div>
+                    </div>
+                    
 				</div>
                 
                 
@@ -133,25 +112,25 @@ div.panel {
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+                  <script src="assets/js/owl.carousel.min.js"></script>
         
- <script>
-var acc = document.getElementsByClassName("accordion");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-  acc[i].onclick = function() {
-    this.classList.toggle("active");
-    var panel = this.nextElementSibling;
-    if (panel.style.maxHeight){
-      panel.style.maxHeight = null;
-    } else {
-      panel.style.maxHeight = panel.scrollHeight + "px";
-    } 
-  }
-}
-</script>
-    
-
+        <script>
+            $(document).ready(function(){
+              $(".owl-carousel").owlCarousel();
+              });
+            
+             var owl = $('.owl-carousel');
+owl.owlCarousel({
+    dots: true,
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:7000,
+    center: true,
+});
+            
+        </script>
 
 	</body>
 </html>

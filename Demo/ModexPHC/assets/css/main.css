@@ -25,7 +25,7 @@ button{
     font-family: 'Walter Turncoat', cursive;
 }
     h1, h2, h3, h4, h5, h6{
-            font-family: 'Walter Turncoat', cursive;
+            font-family: 'Walter Turncoat', monospace;
             margin: 0;
             padding: 0;
             border: 0;
@@ -3525,15 +3525,17 @@ button{
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-		background-image: -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(08, 08, 08, 0.8), rgba(08, 08, 08, 0.8)), url("../../images/modexphcpictures/DSC_6556%20(800x530).jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(08, 08, 08, 0.8), rgba(08, 08, 08, 0.8)), url("../../images/modexphcpictures/DSC_6556%20(800x530).jpg");
+		background-image: -ms-linear-gradient(to top, rgba(08, 08, 08, 0.8), rgba(08, 08, 08, 0.8)), url("../../images/modexphcpictures/DSC_6556%20(800x530).jpg");
+		background-image: linear-gradient(to top, rgba(08, 08, 08, 0.8), rgba(08, 08, 08, 0.8)), url("../../images/modexphcpictures/DSC_6556%20(800x530).jpg");
+        
+        
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
 		height: 75vh;
-		min-height: 30em;
+		min-height: 50em;
 		position: relative;
 	}
 
@@ -3710,7 +3712,7 @@ button{
 		@media screen and (max-width: 1280px) {
 
 			#banner {
-				background-attachment: scroll;
+				background-attachment: fixed;
 			}
 
 				#banner .inner {
@@ -4109,7 +4111,7 @@ button{
 /* Main */
 
 	#main {
-		background: #ffffff;
+		background-image: -webkit-linear-gradient(100deg, #777777 35%, #ffffff 65%);
 		border-bottom: solid 1px #eaeaea;
 	}
 
