@@ -3534,7 +3534,7 @@ button{
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
-		height: 75vh;
+		height: 100vh;
 		min-height: 50em;
 		position: relative;
 	}
@@ -4111,7 +4111,7 @@ button{
 /* Main */
 
 	#main {
-		background-image: -webkit-linear-gradient(100deg, #777777 35%, #ffffff 65%);
+		background-image: -webkit-linear-gradient(90deg, #aebdff 25%, #aedbdd 75%);
 		border-bottom: solid 1px #eaeaea;
 	}
 
