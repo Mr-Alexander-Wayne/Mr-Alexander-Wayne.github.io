@@ -15,46 +15,6 @@
         <link href="https://fonts.googleapis.com/css?family=Walter+Turncoat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
         
-        
-        	<style>
-button.accordion {
-    background-color: white;
-    color: #444;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-    margin-top: 16px;
-}
-
-button.accordion.active, button.accordion:hover {
-    background-color: #ddd;
-}
-
-button.accordion:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
-}
-
-button.accordion.active:after {
-    content: "\2212";
-}
-
-div.panel {
-    padding: 0 18px;
-    background-color: antiquewhite;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
-}
-</style>
 	</head>
 	<body>
 
@@ -92,19 +52,17 @@ div.panel {
 							<div class="row uniform">
 								<div class="6u 12u$(xsmall)">
 									<label for="demo-name">Name</label>
-									<input type="text" name="demo-name" id="demo-name" value="" />
+									<input type="text" name="demo-name" id="demo-name" placeholder = "Enter your name" required value="" />
 								</div>
 								<div class="6u$ 12u$(xsmall)">
 									<label for="demo-email">Email</label>
-									<input type="email" name="demo-email" id="demo-email" value="" />
+									<input type="email" name="demo-email" id="demo-email" placeholder = "Enter your email" required value="" />
 								</div>
 								<div class="12u$">
 									<label for="demo-category">Category</label>
 									<div class="select-wrapper">
-										<select name="demo-category" id="demo-category">
-											<option value="">-</option>
-											<option value="1">Manufacturing</option>
-											<option value="1">Shipping</option>
+										<select name="demo-category" id="demo-category" required>
+											<option value="" >-</option>
 											<option value="1">Administration</option>
 											<option value="1">Human Resources</option>
 										</select>
@@ -113,7 +71,7 @@ div.panel {
 								
 								<div class="12u$">
 									<label for="demo-message">Message</label>
-									<textarea name="demo-message" id="demo-message" rows="6"></textarea>
+									<textarea name="demo-message" id="demo-message" rows="6" placeholder = "Enter your message" required></textarea>
 								</div>
 								<div class="12u$">
 									<ul class="actions">
