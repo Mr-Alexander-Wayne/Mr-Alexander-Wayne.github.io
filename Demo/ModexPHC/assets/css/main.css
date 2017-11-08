@@ -1622,7 +1622,7 @@ button{
 /* Type */
 
 	body {
-		background-color: #f7f7f7;
+		background-color: maroon;
 		color: #999999;
 	}
 
@@ -3050,7 +3050,7 @@ button{
 		}
 
 		.wrapper.style1 {
-			background: #ffffff;
+			background: maroon;
 			border-bottom: solid 1px #eaeaea;
 		}
 
@@ -4111,7 +4111,8 @@ button{
 /* Main */
 
 	#main {
-		background-image: -webkit-linear-gradient(140deg, #fe7171 35%, #ee8c3a  65%);
+		/*background-image: -webkit-linear-gradient(45deg, #ee7088 25%, #df66ff 65%);*/
+        background-color: maroon;
 		border-bottom: solid 1px #eaeaea;
 	}
 
