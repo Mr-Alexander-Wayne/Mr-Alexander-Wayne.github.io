@@ -1978,7 +1978,7 @@ button{
 			input[type="button"].special:hover,
 			button.special:hover,
 			.button.special:hover {
-				background-color: transparent;
+				background-color: burlywood;
                 background-image: #a480ff;
 			}
 
@@ -3831,11 +3831,11 @@ button{
 		
 		color: #ffffff;
 		padding: 7em 0 5em 0 ;
-		background-image: -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/1.jpg");
+		/*background-image: -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/1.jpg");
 		background-image: -webkit-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/1.jpg");
 		background-image: -ms-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/1.jpg");
-		/*background-image: linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/4.jpg");*/
-        background-image: linear-gradient(90deg, #ff8f83, #a480ff );
+		background-image: linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)), url("../../images/4.jpg");*/
+        background-image: linear-gradient(135deg, brown , burlywood);
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
