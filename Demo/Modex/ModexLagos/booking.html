@@ -8,6 +8,9 @@
 		<title>Booking &#8226; Modex Guest House</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name = "keywords" content = "Modex, Modex Guest House, ModexPHC, Modex Lounge and Spa, Lagos Guest House, Port        Harcourt Guest House, Corporate Guest House" />
+        <meta name = "robot" content = "index,follow" />
+        <meta name = "description" content = "Modex is high end guest house offering spa and lounge services to corporate and exclusive clients. It is a relaxation and networking hub for business men and women." />
 		<!--[if lte IE 8]><script src="../assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<!--[if lte IE 9]><link rel="stylesheet" href="../assets/css/ie9.css" /><![endif]-->
@@ -28,8 +31,7 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-					<li><a href="team.html">Our Team</a></li>                    
+                    <li><a href="about.html">About Us</a></li>                    
                     <li><a href="services.html">Our Services</a></li>
 					<li><a href="gallery.html">Gallery</a></li>
 				</ul>
@@ -48,22 +50,22 @@
 				<div class="inner">
                     <section>
 						<h3>Fill the form below to begin your booking process</h3>
-						<form method="post" action="#">
+						<form method="post" action="mail.php">
                             
 							<div class="row uniform">
                                 
 								<div class="6u 12u$(xsmall)">
 									<label for="demo-firstname">First Name</label>
-									<input type="text" name="demo-fname" id="demo-fname" value="" />
+									<input type="text" name="fname" id="demo-fname" value="" />
 								</div>
 								<div class="6u$ 12u$(xsmall)">
 									<label for="demo-lastname">Last Name</label>
-									<input type="text" name="demo-lname" id="demo-lname" value="" />
+									<input type="text" name="lname" id="demo-lname" value="" />
 								</div>
                                 <div class="12u$">
 									<label for="demo-category">Room Type</label>
 									<div class="select-wrapper">
-										<select name="demo-category" id="demo-category">
+										<select name="category" id="demo-category">
 											<option value="">-</option>
 											<option value="Classic">Classic</option>
 											<option value="Supreme">Supreme</option>
@@ -72,19 +74,19 @@
                                 </div>
 								<div class="6u 12u$(xsmall)">
 									<label for="demo-email">Email</label>
-									<input type="email" name="demo-email" id="demo-email" value="" />
+									<input type="email" name="email" id="email" value="" />
 								</div>
                                 <div class="6u$ 12u$(xsmall)">
 									<label for="demo-tel">Phone Number</label>
-									<input type="tel" name="demo-tel" id="demo-tel" value="" />
+									<input type="tel" name="tel" id="tel" value="" />
 								</div>
                                 <div class="6u 12u$(xsmall) ">
 									<label for="demo-adate">Arrival Date</label>
-									<input type="date" name="demo-adate" id="demo-adate" min="2017-01-01" value=""/>
+									<input type="date" name="adate" id="adate" min="2017-01-01" value=""/>
 								</div>
 								<div class="6u$ 12u$(xsmall)">
 									<label for="demo-ddate">Departure Date</label>
-									<input type="date" name="demo-ddate" id="demo-ddate" value="" />
+									<input type="date" name="ddate" id="ddate" value="" />
 								</div>
 								
                                                                 
