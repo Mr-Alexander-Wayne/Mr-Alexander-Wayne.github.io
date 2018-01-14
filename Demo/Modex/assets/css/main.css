@@ -3857,6 +3857,7 @@ button{
 		background-attachment: fixed;
 		background-position: center;
 		background-size: cover;
+        font-size: 100%;
 	}
 
 		#footer input, #footer select, #footer textarea {
