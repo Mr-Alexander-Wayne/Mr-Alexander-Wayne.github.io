@@ -15,6 +15,7 @@
 			<meta name = "keywords" content = "araka, ebuka araka, araka ebuka, Araka, Araka Ebuka, Araka Ebuka IV, Mr. Alexander Wayne, knvg, the kvng,  KVNG, designer, developer, website, programmer, how to create website, website designer, Alexander, Wayne, Alexander Wayne, The Alexander Wayne Inc, Mr Alexander Wayne Inc, araka.com, best website designer in Lagos, best website designer in Abuja, best website designer in Port Harcourt, best website designer in Nigeria, blogger, content-creation, website development, UNICORN  " />
 			<meta name = "robot" content = "index,follow" />
 			<meta name = "description" content = "Mr. Alexander Wayne | Web Developer, Designer & Programmer" />
+            <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 			<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 			<link rel="stylesheet" href="assets/css/main.css" />
 			<!--<link rel="stylesheet" href="assets/css/part2.css" />-->
@@ -46,6 +47,18 @@
         text-align: left;
         font-size: 14px;
     }
+        
+        no, on{
+            height: 100px;
+        }
+        
+        no{
+            background-image: url(images/logo.png);
+        }
+        
+        on{
+            background-image: url(images/logooo.jpg);
+        }
 </style>
             <link href="https://fonts.googleapis.com/css?family=Kalam" rel="stylesheet">
 		</head>
@@ -313,11 +326,15 @@
 
 							<section id="work" class="four">
 							<div class="container">
-	<header><h2>Recent Projects</h2>
+	<header><h2>Recent Clients</h2>
 	<hr>
 	</header>
 								 <div class="Work">
-	<p>Working on something new <i class = "fa fa-smile-o"></i></p>
+                                     
+                                     <ul>
+                                     <li><a href="https://epitomecakesnbake.com">Epitome Cakes and Bakes</a></li>
+                                     <li><a href="https://mr-alexander-wayne.github.io/Demo/Modex/index.html">Modex Guest House</a></li>    
+                                     </ul>
  
 	
 			</div>
@@ -351,12 +368,12 @@
 				
 								<p>
 								<ul style = "list-style-type: none; text-align: left;">
-									<li><i class = "icon fa-map-marker fa-fw"></i>&ensp;Lagos, Nigeria</i></li><br>
+                                    <li><i class = "icon fa-map-marker fa-fw"></i>&ensp;Lagos, Nigeria</li><br>
 									<li><i class = "icon fa-phone fa-fw"></i>&ensp;(+234) 703 728 0220</li><br>
 									<li><i class = "icon fa-envelope fa-fw"></i>&ensp;<a href = "mailto:araka.ebuka@gmail.com">araka.ebuka@gmail.com</a></li>
 								`	<li><i class = "icon fa-paypal fa-fw"></i>&ensp;araka.ebuka@yahoo.com</li>
 								</ul>
-									</p>
+                                </p>
 
 
 							</div>
@@ -369,8 +386,8 @@
 	
 	
 						
-	
-				</div>
+	</div>
+				
 								
 				</div>
 	
@@ -405,7 +422,9 @@
 				<script src="assets/js/skel.min.js"></script>
 				<script src="assets/js/util.js"></script>
 				<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+<script src="assets/js/owl.carousel.min.js"></script>
 				<script src="assets/js/main.js"></script>
+
 <!--TypeForm Scripts-->
 <script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm_share',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'share.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}id=id+'_';if(!gi.call(d,id)){qs=ce.call(d,'link');qs.rel='stylesheet';qs.id=id;s=gt.call(d,'head')[0];s.appendChild(qs,s)}})()</script>
 
@@ -444,7 +463,24 @@
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgFk7FQrKL_-amXU-EjLSrUXR_SijfX7k&callback=initMap">
     </script>
 
-
+<script>
+            $(document).ready(function(){
+              $(".owl-carousel").owlCarousel();
+              });
+            
+             var owl = $('.owl-carousel');
+owl.owlCarousel({
+    dots: true,
+    items:2,
+    loop:true,
+    margin:30,
+    autoplay:false,
+    autoplayTimeout:2000,
+    stagePadding: 0,
+});
+            
+            
+        </script>
 
 <!--New script for the typed.js
 
