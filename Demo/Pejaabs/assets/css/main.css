@@ -1,15 +1,11 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
 
-/*
-	Atmosphere by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
-*/
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -17,6 +13,15 @@
 		font: inherit;
 		vertical-align: baseline;
 	}
+
+    i{
+        margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 170%;
+		vertical-align: baseline;
+        font-family: 'Sacramento', cursive;
+    }
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 		display: block;
@@ -2368,6 +2373,7 @@
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+        font-size: 100%;
 	}
 
 		.icon:before {
@@ -2383,11 +2389,42 @@
 			display: none;
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+		.icon.style2 {
+			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+			background-color: transparent;
+			border: solid 1px #c9c9c9;
+			border-radius: 50%;
+			width: 2.65em;
+			height: 2.65em;
+			display: inline-block;
+			text-align: center;
+			line-height: 2.65em;
+			color: inherit;
+		}
+
+			.icon.style2:before {
+				font-size: 1.1em;
+			}
+
+			.icon.style2:hover {
+				color: #f2849e;
+				border-color: #f2849e;
+			}
+
+			.icon.style2:active {
+				background-color: rgba(242, 132, 158, 0.1);
+			}
+
+            .circle{
+                display: inline-block;
+              border-radius: 50%;
+              box-shadow: 0px 0px 2px #888;
+              padding: 0.5em 0.6em;
+
+            }
 
 /* Image */
 
@@ -3183,10 +3220,11 @@
 	.wrapper {
 		padding: 6em 0 4em 0 ;
 		position: relative;
+        background-color: #f5f8fa;
 	}
-
+#aad6d8
 		.wrapper:before, .wrapper:after {
-			background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,0 0,100 100,100' style='fill:%23fff%3B' /%3E%3C/svg%3E");
+            background: ;
 		}
 
 		.wrapper > .inner {
@@ -3771,7 +3809,7 @@
 		-webkit-transition-timing-function: ease-in-out;
 		-ms-transition-timing-function: ease-in-out;
 		transition-timing-function: ease-in-out;
-		background: #3b4147;
+		background: #aad6d8;
 		color: #ffffff;
 		left: 0;
 		padding: 1em;
@@ -4097,21 +4135,17 @@
 			opacity: 1;
 		}
 
-	/*
-		Atmosphere by Pixelarity
-		pixelarity.com | hello@pixelarity.com
-		License: pixelarity.com/license
-	*/
+	
 
 /* Banner */
 
 	#banner {
-		background-image: -moz-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
-		background-image: -webkit-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
-		background-image: -ms-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
-		background-image: linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/banner.jpg");
+		background-image: -moz-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/Pejaab/31.jpg");
+		background-image: -webkit-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/Pejaab/31.jpg");
+		background-image: -ms-linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/Pejaab/31.jpg");
+		background-image: linear-gradient(to top, rgba(64, 63, 135, 0.9), rgba(64, 63, 135, 0.9)), url("../../images/Pejaab/31.jpg");
 		background-attachment: fixed;
-		background-position: center center;
+		background-position: top;
 		background-size: cover;
 		color: #fff;
 		padding: 16em 3em;
